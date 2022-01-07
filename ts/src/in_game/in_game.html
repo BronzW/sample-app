@@ -10,45 +10,38 @@
 </head>
 <body class="in-game">
   <!-- -------------------------------- Header ------------------------------- -->
+  <div class="placeholder"></div>
+  <div class="element">
+    <div class="short-line"></div>
 
-  <header id="header" class="app-header">
-    <img src="../../img/header_icon.svg" />
-    <h1>Sample App / in-game window</h1>
-    <h1 class="hotkey-text">
-      Show/Hide Hotkey:
-      <kbd id="hotkey"></kbd>
-    </h1>
-    <div class="window-controls-group">
-      <button id="minimizeButton" class="window-control window-control-minimize" />
-      <button id="maximizeButton" class="window-control window-control-maximize" />
-      <button id="closeButton" class="window-control window-control-close" />
-    </div>
-  </header>
+    <div class="xshort-line"></div>
 
-  <!-- --------------------------------- Main -------------------------------- -->
-  <main>
-    <div id="logs">
-      <div id="events" class="logColumn">
-        <h1>Game Events</h1>
-        <div id="eventsLog" class="dataText">
-        </div>
-      </div>
-      <div id="infoUpdates" class="logColumn">
-        <h1>Info Updates</h1>
-        <div id="infoLog" class="dataText"></div>
-      </div>
-    </div>
-    <div id="other">
-      <h1>Real-time Game Data</h1>
-      <p id="infoParagraph">
-        The background controller of this app is listening to all the game
-        events and info updates, and sends them to this window, that prints
-        them to the screen. Some specific events (Match Start/End, Kill and
-        Death) are painted in <span style="color: #00DEFA">teal</span> and
-        logged to the developers console.
-      </p>
-    </div>
-  </main>
+    <div class="short-line"></div>
+
+    <div class="xshort-line"></div>
+
+    <div class="short-line"></div>
+
+    <div class="xshort-line"></div>
+
+    <div class="short-line"></div>
+
+    <div class="xshort-line"></div>
+
+    <div class="short-line hidden"></div>
+
+  </div>
+  <div class="placeholder">
+    <p>58 m</p>
+    <p>42 m</p>
+    <p>49 m</p>
+    <p>42 m</p>
+    <p>35 m</p>
+    <p>27 m</p>
+    <p>18 m</p>
+    <p>0-2 m</p>
+    <p class="hidden">Halla!</p>
+  </div>
 
   <script>
     // Standard Google Universal Analytics code
